@@ -149,11 +149,11 @@
     
     // Cell is OPEN -> CLOSED
     if ([[self.isClickedArray objectAtIndex:titleButton.tag] boolValue] == YES) {
-        [self closeCollapseClickCellAtIndex:titleButton.tag animated:YES];
+        [self closeCollapseClickCellAtIndex:titleButton.tag animated:NO];
     }
     // Cell is CLOSED -> OPEN
     else {
-        [self openCollapseClickCellAtIndex:titleButton.tag animated:YES];
+        [self openCollapseClickCellAtIndex:titleButton.tag animated:NO];
         isOpen = YES;
     }
     
