@@ -30,7 +30,6 @@
                     </view>
                     <connections>
                         <outlet property="CCOptionSetting" destination="4c6-1v-GTa" id="nXX-Da-poD"/>
-                        <outlet property="ViewOptionSettingMask" destination="Loa-gO-LWm" id="RcM-wF-c8B"/>
                         <outlet property="viewOptionSetting" destination="Mkl-B1-n6T" id="90t-Vh-3xs"/>
                     </connections>
                 </viewController>
@@ -64,18 +63,6 @@
                         </view>
                     </subviews>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </view>
-                <view contentMode="scaleToFill" id="Loa-gO-LWm" userLabel="Mask">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="568"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="35Q-mD-7Aq">
-                            <rect key="frame" x="0.0" y="-61" width="375" height="629"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        </view>
-                    </subviews>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>

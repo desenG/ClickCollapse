@@ -20,6 +20,8 @@
 		1925276B1E08E74000E54416 /* CollapseClickArrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 192527671E08E74000E54416 /* CollapseClickArrow.m */; };
 		19EEC3AD1E0915F800581DAE /* ic_collapse_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19EEC3AB1E0915F800581DAE /* ic_collapse_green@2x.png */; };
 		19EEC3AE1E0915F800581DAE /* ic_collapse_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19EEC3AC1E0915F800581DAE /* ic_collapse_green@3x.png */; };
+		CAF723AB1E0992A8004308DF /* GTClickCollapseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF723AA1E0992A8004308DF /* GTClickCollapseViewController.m */; };
+		CAF723B11E099830004308DF /* UIGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF723B01E099830004308DF /* UIGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		1925276C1E08E75500E54416 /* ClickCollapse-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClickCollapse-Prefix.pch"; sourceTree = "<group>"; };
 		19EEC3AB1E0915F800581DAE /* ic_collapse_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_collapse_green@2x.png"; sourceTree = "<group>"; };
 		19EEC3AC1E0915F800581DAE /* ic_collapse_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_collapse_green@3x.png"; sourceTree = "<group>"; };
+		CAF723A91E0992A8004308DF /* GTClickCollapseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTClickCollapseViewController.h; sourceTree = "<group>"; };
+		CAF723AA1E0992A8004308DF /* GTClickCollapseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTClickCollapseViewController.m; sourceTree = "<group>"; };
+		CAF723AF1E099830004308DF /* UIGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGenerator.h; sourceTree = "<group>"; };
+		CAF723B01E099830004308DF /* UIGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,8 @@
 		192527451E08E70B00E54416 /* ClickCollapse */ = {
 			isa = PBXGroup;
 			children = (
+				CAF723AD1E09980E004308DF /* foundation */,
+				CAF723A61E099231004308DF /* GTClickCollapseViewController */,
 				192527601E08E73600E54416 /* CollapseClick Components */,
 				192527491E08E70B00E54416 /* AppDelegate.h */,
 				1925274A1E08E70B00E54416 /* AppDelegate.m */,
@@ -114,6 +122,24 @@
 				192527671E08E74000E54416 /* CollapseClickArrow.m */,
 			);
 			name = "CollapseClick Components";
+			sourceTree = "<group>";
+		};
+		CAF723A61E099231004308DF /* GTClickCollapseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAF723A91E0992A8004308DF /* GTClickCollapseViewController.h */,
+				CAF723AA1E0992A8004308DF /* GTClickCollapseViewController.m */,
+			);
+			name = GTClickCollapseViewController;
+			sourceTree = "<group>";
+		};
+		CAF723AD1E09980E004308DF /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CAF723AF1E099830004308DF /* UIGenerator.h */,
+				CAF723B01E099830004308DF /* UIGenerator.m */,
+			);
+			name = foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +222,10 @@
 				192527481E08E70B00E54416 /* main.m in Sources */,
 				192527541E08E70B00E54416 /* ClickCollapse.xcdatamodeld in Sources */,
 				192527681E08E74000E54416 /* CollapseClick.m in Sources */,
+				CAF723B11E099830004308DF /* UIGenerator.m in Sources */,
 				1925276B1E08E74000E54416 /* CollapseClickArrow.m in Sources */,
 				192527691E08E74000E54416 /* CollapseClickCell.m in Sources */,
+				CAF723AB1E0992A8004308DF /* GTClickCollapseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

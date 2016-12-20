@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<CollapseClickDelegate>
+@interface ViewController : GTClickCollapseViewController
 {
     
     __weak IBOutlet CollapseClick *CCOptionSetting;
     IBOutlet UIView *viewOptionSetting;
-    IBOutlet UIView *ViewOptionSettingMask;
 }
 
 

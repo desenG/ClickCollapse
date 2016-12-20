@@ -53,31 +53,10 @@
             break;
             
         default:
-            return ViewOptionSettingMask;
+            return [UIGenerator getClickCollapseMaskView];
             break;
     }
 }
-
-
-// Optional Methods
-
--(UIColor *)colorForCollapseClickTitleViewAtIndex:(int)index {
-    return [UIColor whiteColor];
-}
-
-
--(UIColor *)colorForTitleLabelAtIndex:(int)index {
-    return [UIColor greenColor];
-}
-
--(UIColor *)colorForTitleArrowAtIndex:(int)index {
-    return [UIColor colorWithWhite:0.0 alpha:0.25];
-}
-
--(void)didClickCollapseClickCellAtIndex:(int)index isNowOpen:(BOOL)open {
-    NSLog(@"%d and it's open:%@", index, (open ? @"YES" : @"NO"));
-}
-
 
 #pragma mark - TextField Delegate for Demo
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
